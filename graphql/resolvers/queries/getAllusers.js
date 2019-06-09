@@ -1,5 +1,8 @@
-const getAllUsers = async (args, context) => {
+const getAllUsers = async (root, args, context) => {
     try{
+        // console.log('root: ', root)
+        // console.log('args: ', args)
+        console.log('context: ', context)
         let listUsers = {
             data: [{
                 id: 1,
